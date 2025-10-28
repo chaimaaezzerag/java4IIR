@@ -138,14 +138,14 @@ class GestionBibliotheque {
 }
 ```
 
-
+REMARQUE:Je n'avais pas initialement pensé que la classe Livre nécessitait un lien vers GestionBibliotheque. Cet attribut permet désormais à chaque livre de savoir à quelle bibliothèque il appartient, ce qui simplifie sa gestion.
 ***
 
 ## LinkedList - Partie 1
 
 ### Définition
 
-LinkedList est une structure de données en liste chaînée doublement liée permettant des insertions et suppressions efficientes au début, à la fin et au milieu de la liste.
+LinkedList est une structure de données en liste chaînée doublement liée (Transparent pour l utilisateur) permettant des insertions et suppressions efficientes au début, à la fin et au milieu de la liste.
 
 ### Comparaison avec ArrayList
 
@@ -812,6 +812,7 @@ Ce document est prêt à être diffusé, imprimé, ou converti en PDF pour votre
 
 
 ![](collection.jpg)
+
 
 
 
